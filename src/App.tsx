@@ -228,7 +228,7 @@ function App() {
 
           <div className="relative">
             <h1 className="text-balance text-3xl font-semibold tracking-tight md:text-5xl">
-              Practice guitar with a plan —{' '}
+              Practice guitar with a plan made by Papan —{' '}
               <span className="bg-gradient-to-r from-fuchsia-400 via-amber-300 to-sky-300 bg-clip-text text-transparent">
                 from first chords to advanced musicianship
               </span>
@@ -238,6 +238,18 @@ function App() {
               Four levels, clear routines, and notation you can actually use.
               Pick your level, follow the daily practice block, and use the linked video lessons to guide you.
             </p>
+            <div className="mt-6">
+              <div className="relative w-full" style={{ paddingTop: '56.25%' }}>
+                <iframe
+                  className="absolute inset-0 h-full w-full rounded-2xl border border-white/10"
+                  src="https://www.youtube.com/embed/j6I4cBS5HUE"
+                  title="Course end result demo"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                />
+              </div>
+            </div>
             <div className="mt-6 flex flex-wrap gap-3">
               <a
                 href="#beginner"
